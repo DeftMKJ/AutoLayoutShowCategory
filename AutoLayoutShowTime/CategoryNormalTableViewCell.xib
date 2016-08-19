@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryNormalTableViewCell" id="KGk-i7-Jjw" customClass="CategoryNormalTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9M-nc-HGw">
+                        <rect key="frame" x="0.0" y="3" width="123" height="98"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m4c-BA-YOS">
+                                <rect key="frame" x="0.0" y="0.0" width="123" height="98"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m4c-BA-YOS" firstAttribute="top" secondItem="K9M-nc-HGw" secondAttribute="top" id="0a4-WF-3dt"/>
+                            <constraint firstAttribute="width" secondItem="K9M-nc-HGw" secondAttribute="height" multiplier="5:4" id="5ez-BQ-t6Q"/>
+                            <constraint firstAttribute="bottom" secondItem="m4c-BA-YOS" secondAttribute="bottom" id="A06-gV-zHJ"/>
+                            <constraint firstItem="m4c-BA-YOS" firstAttribute="leading" secondItem="K9M-nc-HGw" secondAttribute="leading" id="Zse-Sa-v8d"/>
+                            <constraint firstAttribute="trailing" secondItem="m4c-BA-YOS" secondAttribute="trailing" id="gEX-Bg-r1F"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cTT-eL-fIK">
+                        <rect key="frame" x="252" y="3" width="123" height="98"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aDC-Rf-Igh">
+                                <rect key="frame" x="0.0" y="0.0" width="123" height="98"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aDC-Rf-Igh" firstAttribute="leading" secondItem="cTT-eL-fIK" secondAttribute="leading" id="NC8-Jr-27U"/>
+                            <constraint firstAttribute="bottom" secondItem="aDC-Rf-Igh" secondAttribute="bottom" id="W8K-0S-dXZ"/>
+                            <constraint firstAttribute="trailing" secondItem="aDC-Rf-Igh" secondAttribute="trailing" id="a69-K5-yG5"/>
+                            <constraint firstItem="aDC-Rf-Igh" firstAttribute="top" secondItem="cTT-eL-fIK" secondAttribute="top" id="z3X-7h-cuh"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1GO-kW-uN3">
+                        <rect key="frame" x="126" y="3" width="123" height="98"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="snd-cP-vrG">
+                                <rect key="frame" x="0.0" y="0.0" width="123" height="98"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="snd-cP-vrG" firstAttribute="leading" secondItem="1GO-kW-uN3" secondAttribute="leading" id="Vp6-ES-yNU"/>
+                            <constraint firstAttribute="trailing" secondItem="snd-cP-vrG" secondAttribute="trailing" id="liZ-9h-Wmn"/>
+                            <constraint firstItem="snd-cP-vrG" firstAttribute="top" secondItem="1GO-kW-uN3" secondAttribute="top" id="qxm-20-esf"/>
+                            <constraint firstAttribute="bottom" secondItem="snd-cP-vrG" secondAttribute="bottom" id="ztD-mT-xRd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1GO-kW-uN3" firstAttribute="leading" secondItem="K9M-nc-HGw" secondAttribute="trailing" constant="3" id="3D0-4w-pyQ"/>
+                    <constraint firstAttribute="trailing" secondItem="cTT-eL-fIK" secondAttribute="trailing" id="PZD-kw-Uj5"/>
+                    <constraint firstItem="cTT-eL-fIK" firstAttribute="leading" secondItem="1GO-kW-uN3" secondAttribute="trailing" constant="3" id="bu1-uv-Axx"/>
+                    <constraint firstItem="1GO-kW-uN3" firstAttribute="width" secondItem="K9M-nc-HGw" secondAttribute="width" id="eFP-KO-ubi"/>
+                    <constraint firstItem="K9M-nc-HGw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eS4-0l-vCZ"/>
+                    <constraint firstItem="K9M-nc-HGw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="naK-w6-KXE"/>
+                    <constraint firstItem="cTT-eL-fIK" firstAttribute="height" secondItem="K9M-nc-HGw" secondAttribute="height" id="oOl-UH-7dR"/>
+                    <constraint firstItem="cTT-eL-fIK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="pK5-en-gAK"/>
+                    <constraint firstItem="cTT-eL-fIK" firstAttribute="width" secondItem="K9M-nc-HGw" secondAttribute="width" id="s2y-k8-rV7"/>
+                    <constraint firstItem="1GO-kW-uN3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="tMC-SH-Ji8"/>
+                    <constraint firstItem="1GO-kW-uN3" firstAttribute="height" secondItem="K9M-nc-HGw" secondAttribute="height" id="uGP-tJ-WST"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="normalLeftImageView" destination="m4c-BA-YOS" id="ljJ-ke-2JR"/>
+                <outlet property="normalLeftView" destination="K9M-nc-HGw" id="DEs-ZK-6ee"/>
+                <outlet property="normalMiddleImageView" destination="snd-cP-vrG" id="xEX-QK-jkK"/>
+                <outlet property="normalMiddleView" destination="1GO-kW-uN3" id="F0N-j2-0DF"/>
+                <outlet property="normalRightImageView" destination="aDC-Rf-Igh" id="tjZ-yS-Tah"/>
+                <outlet property="normalRightView" destination="cTT-eL-fIK" id="pjT-ZB-vS4"/>
+            </connections>
+            <point key="canvasLocation" x="434.5" y="382"/>
+        </tableViewCell>
+    </objects>
+</document>

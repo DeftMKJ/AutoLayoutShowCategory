@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4150493E141B73EE66B03CA2 /* libPods-AutoLayoutShowTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C7A8A6384F3F972643874E /* libPods-AutoLayoutShowTime.a */; };
 		B111D90D1D66ACF100929AA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D90C1D66ACF100929AA8 /* main.m */; };
 		B111D9101D66ACF100929AA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D90F1D66ACF100929AA8 /* AppDelegate.m */; };
 		B111D9131D66ACF100929AA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9121D66ACF100929AA8 /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		B111D91B1D66ACF100929AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B111D9191D66ACF100929AA8 /* LaunchScreen.storyboard */; };
 		B111D9261D66ACF200929AA8 /* AutoLayoutShowTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9251D66ACF200929AA8 /* AutoLayoutShowTimeTests.m */; };
 		B111D9311D66ACF200929AA8 /* AutoLayoutShowTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9301D66ACF200929AA8 /* AutoLayoutShowTimeUITests.m */; };
+		B111D9481D66AED200929AA8 /* CategoryNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9421D66AED200929AA8 /* CategoryNormalTableViewCell.m */; };
+		B111D9491D66AED200929AA8 /* CategoryNormalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B111D9431D66AED200929AA8 /* CategoryNormalTableViewCell.xib */; };
+		B111D94A1D66AED200929AA8 /* CatogoryPullDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B111D9441D66AED200929AA8 /* CatogoryPullDownTableViewCell.xib */; };
+		B111D94B1D66AED200929AA8 /* SecondCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9461D66AED200929AA8 /* SecondCategoryCollectionViewCell.m */; };
+		B111D94C1D66AED200929AA8 /* SecondCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B111D9471D66AED200929AA8 /* SecondCategoryCollectionViewCell.xib */; };
+		B111D94F1D66AF8A00929AA8 /* MKJRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D94E1D66AF8A00929AA8 /* MKJRequestHelper.m */; };
+		B111D9521D66B0A300929AA8 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9511D66B0A300929AA8 /* CategoryModel.m */; };
+		B111D9541D66B58500929AA8 /* Category.json in Resources */ = {isa = PBXBuildFile; fileRef = B111D9531D66B58500929AA8 /* Category.json */; };
+		B111D9571D66BA2700929AA8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B111D9561D66BA2700929AA8 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E166D9ED35B371E165C42D3 /* Pods-AutoLayoutShowTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutShowTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutShowTime/Pods-AutoLayoutShowTime.release.xcconfig"; sourceTree = "<group>"; };
 		B111D9081D66ACF100929AA8 /* AutoLayoutShowTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutShowTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B111D90C1D66ACF100929AA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B111D90E1D66ACF100929AA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,22 @@
 		B111D92C1D66ACF200929AA8 /* AutoLayoutShowTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutShowTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B111D9301D66ACF200929AA8 /* AutoLayoutShowTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutShowTimeUITests.m; sourceTree = "<group>"; };
 		B111D9321D66ACF200929AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B111D9411D66AED200929AA8 /* CategoryNormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryNormalTableViewCell.h; sourceTree = "<group>"; };
+		B111D9421D66AED200929AA8 /* CategoryNormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryNormalTableViewCell.m; sourceTree = "<group>"; };
+		B111D9431D66AED200929AA8 /* CategoryNormalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryNormalTableViewCell.xib; sourceTree = "<group>"; };
+		B111D9441D66AED200929AA8 /* CatogoryPullDownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatogoryPullDownTableViewCell.xib; sourceTree = "<group>"; };
+		B111D9451D66AED200929AA8 /* SecondCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		B111D9461D66AED200929AA8 /* SecondCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		B111D9471D66AED200929AA8 /* SecondCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		B111D94D1D66AF8A00929AA8 /* MKJRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJRequestHelper.h; sourceTree = "<group>"; };
+		B111D94E1D66AF8A00929AA8 /* MKJRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJRequestHelper.m; sourceTree = "<group>"; };
+		B111D9501D66B0A300929AA8 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		B111D9511D66B0A300929AA8 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		B111D9531D66B58500929AA8 /* Category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Category.json; sourceTree = "<group>"; };
+		B111D9551D66BA2700929AA8 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B111D9561D66BA2700929AA8 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C6C7A8A6384F3F972643874E /* libPods-AutoLayoutShowTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLayoutShowTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F899AF73F23ACA4D8167D8 /* Pods-AutoLayoutShowTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutShowTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutShowTime/Pods-AutoLayoutShowTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4150493E141B73EE66B03CA2 /* libPods-AutoLayoutShowTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75F6F90B90CE9D43EFD60A70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7F899AF73F23ACA4D8167D8 /* Pods-AutoLayoutShowTime.debug.xcconfig */,
+				5E166D9ED35B371E165C42D3 /* Pods-AutoLayoutShowTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EAB3834F7BCABA8563A537E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6C7A8A6384F3F972643874E /* libPods-AutoLayoutShowTime.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B111D8FF1D66ACF100929AA8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				B111D9241D66ACF200929AA8 /* AutoLayoutShowTimeTests */,
 				B111D92F1D66ACF200929AA8 /* AutoLayoutShowTimeUITests */,
 				B111D9091D66ACF100929AA8 /* Products */,
+				75F6F90B90CE9D43EFD60A70 /* Pods */,
+				8EAB3834F7BCABA8563A537E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +148,11 @@
 		B111D90A1D66ACF100929AA8 /* AutoLayoutShowTime */ = {
 			isa = PBXGroup;
 			children = (
+				B111D9401D66AE7000929AA8 /* VC */,
+				B111D93F1D66AE6A00929AA8 /* Cells */,
+				B111D93E1D66AE5900929AA8 /* RequestHelper */,
 				B111D90E1D66ACF100929AA8 /* AppDelegate.h */,
 				B111D90F1D66ACF100929AA8 /* AppDelegate.m */,
-				B111D9111D66ACF100929AA8 /* ViewController.h */,
-				B111D9121D66ACF100929AA8 /* ViewController.m */,
-				B111D9141D66ACF100929AA8 /* Main.storyboard */,
 				B111D9171D66ACF100929AA8 /* Assets.xcassets */,
 				B111D9191D66ACF100929AA8 /* LaunchScreen.storyboard */,
 				B111D91C1D66ACF100929AA8 /* Info.plist */,
@@ -140,6 +187,44 @@
 			path = AutoLayoutShowTimeUITests;
 			sourceTree = "<group>";
 		};
+		B111D93E1D66AE5900929AA8 /* RequestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B111D9551D66BA2700929AA8 /* UIView+Extension.h */,
+				B111D9561D66BA2700929AA8 /* UIView+Extension.m */,
+				B111D94D1D66AF8A00929AA8 /* MKJRequestHelper.h */,
+				B111D94E1D66AF8A00929AA8 /* MKJRequestHelper.m */,
+				B111D9501D66B0A300929AA8 /* CategoryModel.h */,
+				B111D9511D66B0A300929AA8 /* CategoryModel.m */,
+				B111D9531D66B58500929AA8 /* Category.json */,
+			);
+			name = RequestHelper;
+			sourceTree = "<group>";
+		};
+		B111D93F1D66AE6A00929AA8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B111D9411D66AED200929AA8 /* CategoryNormalTableViewCell.h */,
+				B111D9421D66AED200929AA8 /* CategoryNormalTableViewCell.m */,
+				B111D9431D66AED200929AA8 /* CategoryNormalTableViewCell.xib */,
+				B111D9441D66AED200929AA8 /* CatogoryPullDownTableViewCell.xib */,
+				B111D9451D66AED200929AA8 /* SecondCategoryCollectionViewCell.h */,
+				B111D9461D66AED200929AA8 /* SecondCategoryCollectionViewCell.m */,
+				B111D9471D66AED200929AA8 /* SecondCategoryCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B111D9401D66AE7000929AA8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B111D9141D66ACF100929AA8 /* Main.storyboard */,
+				B111D9111D66ACF100929AA8 /* ViewController.h */,
+				B111D9121D66ACF100929AA8 /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B111D9351D66ACF200929AA8 /* Build configuration list for PBXNativeTarget "AutoLayoutShowTime" */;
 			buildPhases = (
+				E436A2C46EA413B99FB85045 /* [CP] Check Pods Manifest.lock */,
 				B111D9041D66ACF100929AA8 /* Sources */,
 				B111D9051D66ACF100929AA8 /* Frameworks */,
 				B111D9061D66ACF100929AA8 /* Resources */,
+				1AC63836F0C49B3934F99D33 /* [CP] Embed Pods Frameworks */,
+				CB90635C9C6547F1A54ED21A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +331,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B111D94C1D66AED200929AA8 /* SecondCategoryCollectionViewCell.xib in Resources */,
 				B111D91B1D66ACF100929AA8 /* LaunchScreen.storyboard in Resources */,
 				B111D9181D66ACF100929AA8 /* Assets.xcassets in Resources */,
+				B111D94A1D66AED200929AA8 /* CatogoryPullDownTableViewCell.xib in Resources */,
+				B111D9491D66AED200929AA8 /* CategoryNormalTableViewCell.xib in Resources */,
 				B111D9161D66ACF100929AA8 /* Main.storyboard in Resources */,
+				B111D9541D66B58500929AA8 /* Category.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +357,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AC63836F0C49B3934F99D33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutShowTime/Pods-AutoLayoutShowTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB90635C9C6547F1A54ED21A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutShowTime/Pods-AutoLayoutShowTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E436A2C46EA413B99FB85045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B111D9041D66ACF100929AA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B111D94F1D66AF8A00929AA8 /* MKJRequestHelper.m in Sources */,
+				B111D9521D66B0A300929AA8 /* CategoryModel.m in Sources */,
+				B111D94B1D66AED200929AA8 /* SecondCategoryCollectionViewCell.m in Sources */,
 				B111D9131D66ACF100929AA8 /* ViewController.m in Sources */,
 				B111D9101D66ACF100929AA8 /* AppDelegate.m in Sources */,
+				B111D9481D66AED200929AA8 /* CategoryNormalTableViewCell.m in Sources */,
+				B111D9571D66BA2700929AA8 /* UIView+Extension.m in Sources */,
 				B111D90D1D66ACF100929AA8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +558,7 @@
 		};
 		B111D9361D66ACF200929AA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F899AF73F23ACA4D8167D8 /* Pods-AutoLayoutShowTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayoutShowTime/Info.plist;
@@ -424,6 +570,7 @@
 		};
 		B111D9371D66ACF200929AA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E166D9ED35B371E165C42D3 /* Pods-AutoLayoutShowTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayoutShowTime/Info.plist;
@@ -498,6 +645,7 @@
 				B111D9371D66ACF200929AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B111D9381D66ACF200929AA8 /* Build configuration list for PBXNativeTarget "AutoLayoutShowTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +654,7 @@
 				B111D93A1D66ACF200929AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B111D93B1D66ACF200929AA8 /* Build configuration list for PBXNativeTarget "AutoLayoutShowTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +663,7 @@
 				B111D93D1D66ACF200929AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
